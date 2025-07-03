@@ -25,4 +25,10 @@ public interface SignupUserDataAccessInterface {
      * @param username the user's name to set as current
      */
     void setCurrentUser(String username);
+
+    /**
+     * Gets the current user.
+     * @return the name of the current user
+     */
+    String getCurrentUser();
 }
